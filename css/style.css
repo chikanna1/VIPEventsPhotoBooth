@@ -81,9 +81,8 @@ body {
 }
 
 #showcase {
-  background: #333
-    url("/images/african-children-black-children-children-2409929.jpg")
-    no-repeat center center/cover;
+  background: #333 url("/images/video-1588956823.mp4") no-repeat center
+    center/cover;
   height: 100vh;
   color: var(--primary-color);
 }
