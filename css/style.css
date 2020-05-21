@@ -1,6 +1,6 @@
 :root {
-  --primary-color: rgba(47, 150, 47, 1);
-  --secondary-color: rgb(136, 226, 136);
+  --primary-color: rgba(19, 13, 18, 1);
+  --secondary-color: rgba(237, 215, 255, 1);
 }
 
 * {
@@ -74,101 +74,38 @@ body {
   padding: 0 2rem;
 }
 
-#navbar ul li a {
-  color: green;
-  padding: 0 0.5rem;
-  font-size: 1.3rem;
+#landing-showcasevideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 
-#showcase {
-  background: #333 url("/images/video-1588956823.mp4") no-repeat center
-    center/cover;
-  height: 100vh;
-  color: var(--primary-color);
-}
-
-#showcase .showcase-content {
-  display: flex;
-  flex-direction: column;
+.landing-header-title {
   text-align: center;
-  justify-content: center;
-  align-content: center;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
 }
-
-.btn {
-  padding: 15px 25px;
-  border-radius: 5px;
-  background: var(--primary-color);
-  font-size: 1.5rem;
-  color: #fff;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  opacity: 0.7;
-}
-
-.btn:hover {
-  background: var(--secondary-color);
-}
-#showcase .showcase-content h1 {
-  font-size: 5rem;
-  line-height: 7rem;
-  color: rgba(136, 226, 136, 0.5);
-  padding: 3px;
-  margin-top: 40px;
-}
-#showcase .showcase-content h1 .l-heading {
-  color: rgba(255, 255, 255, 0.4);
-}
-.l-heading {
-  font-size: 7rem;
-}
-#showcase .showcase-content p {
-  padding: 2rem;
-  font-size: 1.2rem;
-
-  color: var(--secondary-color);
-}
-
-#who-section .container {
-  display: flex;
-  flex-direction: column;
+.landing-showcase-content {
+  position: fixed;
+  padding: 10px 20px;
+  background: rgba(27, 2, 27, 0.1);
+  bottom: 25%;
+  right: 45%;
   text-align: center;
-  padding: 2rem;
-  line-height: 2rem;
-  max-width: 600px;
-  margin: auto;
+  border-radius: 10%;
+  color: #f1f1f1;
+}
+.landing-showcase-content a {
+  text-align: center;
+  color: #f1f1f1;
 }
 
-#who-section i {
-  padding: 2rem;
-  color: var(--primary-color);
+.vip-navbar {
+  background-color: var(--primary-color);
 }
 
-#where .container {
-  /* background-color: var(--primary-color); */
-  padding: 0 0;
-  height: 600px;
-}
-#where .right-where {
-  background: var(--primary-color);
-  padding: 200px 0;
-}
-
-#where .right-where h2 {
-  font-size: 3rem;
-  color: white;
-}
-
-#where .right-where p {
-  font-size: 1.5rem;
-  color: white;
-}
-#where .left-where {
-  background: url("/images/boy-child-children-1002061.jpg") no-repeat center
-    center/cover;
-  height: 600px;
-  margin-right: auto;
+.header-title h1 {
+  text-align: center;
 }
 #main-footer {
   padding-top: 50px;
@@ -185,10 +122,6 @@ body {
   color: #fff;
   justify-content: center;
   z-index: 1;
-}
-
-#main-footer .menu-links {
-  /* padding: 0; */
 }
 
 #footer-navbar ul {
@@ -221,64 +154,98 @@ body {
   color: var(--primary-color);
 }
 
-#who-we-are img {
-  height: 500px;
-}
-
-#who-we-are h1,
-p {
-  font-family: "Oswald", sans-serif;
-}
-
-#who-we-are h1 {
-  font-size: 2rem;
-}
-
-.top-section-donate {
-  background: rgba(167, 167, 167, 0.2);
-}
-
-#get-involved {
-  background: rgba(255, 254, 254, 0.2);
-}
-.participate {
-  padding-top: 180px;
-  padding-left: 70px;
-  padding-right: 70px;
-  padding-bottom: 180px;
-  margin-left: 0;
-}
-
-.participate a {
-  text-decoration: none;
-}
-
-.participate h1 {
-  font-size: 50px;
+#showcase {
+  background: #333 url("/images/neal-e-johnson-fwXkHBFoETE-unsplash.jpg")
+    no-repeat center center/cover;
+  height: 100vh;
   color: white;
 }
 
-.donate-right {
-  /* background-color: var(--secondary-color); */
-  opacity: 0.4;
-  border-left: #333 solid 1px;
-}
-.donate-left {
-  /* background-color: var(--secondary-color); */
-  opacity: 0.4;
-}
-
-.donate-right:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-  opacity: 0.8;
+#showcase .showcase-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
-.donate-left:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-  opacity: 0.8;
+.btn {
+  padding: 15px 25px;
+  border-radius: 5px;
+  background: var(white);
+  font-size: 1.5rem;
+  color: #fff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  opacity: 0.7;
 }
 
-.bottom-section-donate {
-  background: url(/images/doug-linstedt-135670-unsplash.jpg) no-repeat center
-    center/cover;
+.btn:hover {
+  background: var(--secondary-color);
+}
+#showcase .showcase-content h1 {
+  font-size: 5rem;
+  line-height: 7rem;
+  color: rgba(136, 226, 136, 0.5);
+  padding: 3px;
+  margin-top: 40px;
+}
+#showcase .showcase-content h1 .l-heading {
+  color: rgba(255, 255, 255, 0.4);
+}
+.l-heading {
+  font-size: 7rem;
+}
+#showcase .showcase-content p {
+  padding: 2rem;
+  font-size: 1.5rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+
+  color: rgba(255, 255, 255, 0.4);
+}
+
+#first-section {
+  background: var(--primary-color);
+  text-align: center;
+  color: white;
+}
+#first-section img {
+  width: 100%;
+}
+
+#second-section {
+  background: var(--primary-color);
+  text-align: center;
+  color: white;
+}
+#second-section img {
+  width: 100%;
+}
+
+.second-section-left {
+  background: white;
+  color: var(--secondary-color);
+  width: 100%;
+}
+.second-section-right {
+  background: var(--secondary-color);
+}
+
+#third-section {
+  background: var(--primary-color);
+  text-align: center;
+  color: white;
+}
+#third-section img {
+  width: 100%;
+}
+
+.third-section-right {
+  background: white;
+  color: var(--secondary-color);
+  width: 100%;
+}
+.third-section-left {
+  background: var(--secondary-color);
 }

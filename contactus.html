@@ -16,67 +16,34 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <!-- <link rel="stylesheet" href="css/bootstrap.css" /> -->
     <link rel="stylesheet" href="css/style.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Oswald&display=swap"
-      rel="stylesheet"
-    />
-    <style>
-    .btn {
-  padding: 15px 25px;
-  border-radius: 5px;
-  background: var(--primary-color);
-  font-size: 1.5rem;
-  color: #fff;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  opacity: 0.7;
-}
-    </style>
-    <title></title>
+    <title>VIP EVENTS BOOTHS DMV</title>
   </head>
   <body id="home" data-spy="scroll" data-target="#main-nav">
-    <!-- NavBar -->
-    <div>
-      <nav
-        id="main-nav"
-        class="navbar bg-light navbar-light navbar-expand-md py-3"
-      >
-        <a href="index.html" class="navbar-brand">
-          <img
-            src="images/PHOTO-2019-05-15-17-57-43.jpg"
-            width="50"
-            height="50"
-            alt=""
-            class="rounded-circle logo"
-          />
-          <h3 class="d-inline align-middle px-5">SISSEN</h3>
-        </a>
-        <button
-          class="navbar-toggler"
-          data-toggle="collapse"
-          data-target="#navbarCollapse"
-        >
-          <span class="navbar-toggler-icon"></span>
+   <nav class="vip-navbar navbar navbar-dark navbar-expand-md justify-content-between">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-nav">
+            <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a href="index.html" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item">
-              <a href="aboutus.html" class="nav-link">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a href="getinvolved.html" class="nav-link">Get Involved</a>
-            </li>
-            <li class="nav-item">
-              <a href="contactus.html" class="nav-link">Contact Us</a>
-            </li>
-          </ul>
+        <div class="navbar-collapse collapse dual-nav w-50 order-1 order-md-0">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/aboutus.html">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contactus.html">CONTACT US</a>
+                </li>
+            </ul>
         </div>
-      </nav>
+        <a href="/" class="navbar-brand mx-auto d-block text-center order-0 order-md-1 w-25">VIP EVENTS BOOTH DMV</a>
+        <div class="navbar-collapse collapse dual-nav w-50 order-2">
+        </div>
     </div>
-
+</nav>
     <section id="contact-us-page-section-one">
       <div class="container contact-us-container">
         <div class="row">
@@ -99,7 +66,7 @@
           <div class="col-md-12">
             <form
               id="contactus"
-              action="https://formspree.io/sisseninc@gmail.com"
+              action="https://formspree.io/vipeventboothsdmv@gmail.com@gmail.com"
               method="POST"
             >
               <div class="form-row">
@@ -169,9 +136,6 @@
                                   </li>
                                   <li class="nav-item">
                                     <a href="aboutus.html" class="nav-link">About Us</a>
-                                  </li>
-                                  <li class="nav-item">
-                                    <a href="getinvolved.html" class="nav-link">Get Involved</a>
                                   </li>
                                   <li class="nav-item">
                                     <a href="contactus.html" class="nav-link">Contact Us</a>
