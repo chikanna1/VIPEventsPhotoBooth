@@ -75,11 +75,9 @@ body {
 }
 
 #landing-showcasevideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
+  background: black;
+  width: 100vw;
+  height: 100vh;
 }
 
 .landing-header-title {
@@ -87,9 +85,8 @@ body {
 }
 .landing-showcase-content {
   position: fixed;
-  padding: 10px 20px;
   background: rgba(27, 2, 27, 0.1);
-  bottom: 25%;
+  bottom: 40%;
   right: 45%;
   text-align: center;
   border-radius: 10%;
