@@ -48,7 +48,17 @@ function showAlert(message, className) {
 
   parentElement.insertBefore(div, form);
 
-  setTimeout(function() {
+  setTimeout(function () {
     document.querySelector(".alert").remove();
   }, 3000);
 }
+
+function externalLinks() {
+  for (var c = document.getElementsByTagName("a"), a = 0; a < c.length; a++) {
+    var b = c[a];
+    b.getAttribute("href") &&
+      b.hostname !== location.hostname &&
+      (b.target = "_blank");
+  }
+}
+externalLinks();
